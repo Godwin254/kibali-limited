@@ -1,0 +1,64 @@
+/*user login and sign up*/
+.userlogin{
+     max-width: 25%;
+     border: none;
+     border-radius: 3px;
+     min-height: 40vh;
+   
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     box-shadow: 1.2px 1px 10px rgba(0, 0, 0, 0.212);
+     background: #fff;
+   }
+   
+   .userlogin h4{
+     font-size: 1.5em;
+     font-weight: bold;
+     color: brown;
+   
+   }
+   .userlogin input{
+     padding: 12px;
+     margin: 10px 5px 5px 0;
+     border: 1px solid rgb(188, 188, 197);
+     width: 100%;
+   
+     border-radius: 30px;
+     font-size: 1em;
+     outline: none; /*removes outline*/
+   
+   }
+   ::placeholder{
+     padding: 5px;
+     font-size: 15px;
+     font-style: italic;
+   } 
+   
+   .userlogin input:focus + ::placeholder{
+        top: 10px;
+   }
+   
+   .userlogin input[type = button]{
+     background: rgb(114, 107, 172);
+     border: none;
+     font-weight: bold;
+   
+     width: 60%;
+     color: white;
+     cursor: pointer;
+   }
+   
+   .userlogin p{
+     font-style: italic;
+     font-size: 13px;
+     text-decoration: underline;
+     color: blue;
+   
+     cursor: pointer;
+   }
+   
+   /*h4,username,password, input, p*/
+   
