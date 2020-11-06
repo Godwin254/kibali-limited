@@ -1,11 +1,11 @@
-//import HomePage from './components/HomePage.js';
-import SideBar from './components/SideBar'
+import HomePage from './components/HomePage.js';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <SideBar/>
+      <HomePage/>
     </div>
   );
 }
