@@ -2,6 +2,24 @@ import React from 'react'
 import '../stylesheet/sidebarstyle.css'
 
 function SideBar() {
+
+     //const header = document.getElementsByClassName("sidebar");
+     //const lists = header.getElementsByClassName("lists");
+     const btns = document.getElementsByClassName("list");
+
+     //toggle between active side list on clik
+     for (var i = 0; i < btns.length; i++){
+
+          btns[i].addEventListener("click", function(){
+               var current = document.getElementsByClassName("home");
+
+               if(current.length > 0){
+                    current[0].className = current[0].className.replace(" home", "");
+               }
+               this.className += " home";
+          });
+     }
+
      return (
           <div className = "sidebar">
 
