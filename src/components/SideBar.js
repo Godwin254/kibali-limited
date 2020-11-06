@@ -5,7 +5,7 @@ function SideBar() {
      return (
           <div className = "sidebar">
 
-               <span>LOGO</span>
+               <span>KIBALI STORE</span>
 
                <div className="icon">
                     <h4>Admin</h4>

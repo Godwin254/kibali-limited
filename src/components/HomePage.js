@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 //import RegisterUser from './RegisterUser'
 import SideBar from './SideBar'
 import NavBar from './NavBar'
+import Home from './Home'
 
 class HomePage extends Component {
     constructor(props) {
@@ -31,6 +32,10 @@ class HomePage extends Component {
                <React.Fragment>
                    <SideBar />
                    <NavBar />
+                   <Home title="Frequent goods"/>
+                   <Home title="Beverage and drinks"/>
+                  
+                  
                </React.Fragment>
           )
      
