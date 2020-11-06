@@ -1,5 +1,5 @@
 *{
-  border: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@
 
   position: relative;
 }
-
+/*userlogin / register*/
 .userlogin{
   position: relative;
   top: 15%;

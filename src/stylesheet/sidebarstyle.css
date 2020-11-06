@@ -1,0 +1,97 @@
+.sidebar{
+     position: fixed;
+     background: #fff;
+     width: 14%;
+     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.013);
+
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+.sidebar .icon{
+     border: 1px solid rgba(0, 0, 0, 0.054);
+     width: 1.5cm;
+     height: 1.5cm;
+
+     border-radius: 50%;
+     background: #f4f4f4;
+     display: flex;
+
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     
+}
+
+.icon h4{
+     color: blue;
+     font-style: italic;
+     font-size: 1em;
+}
+.sidebar .lists{
+     border-top: 1px solid rgba(93, 93, 110, 0.102);
+     border-bottom: 1px solid rgba(93, 93, 110, 0.102);
+     width: 100%;
+     flex-basis: 60%;
+
+     display: flex;
+     flex-direction: column;
+     
+
+}
+.sidebar .lists .list{
+     width: 100%;
+     padding: 8px;
+     border-right: none;
+
+     display: flex;
+     align-items: center;
+     flex-basis: 67px;
+     cursor: pointer;
+
+}
+
+.sidebar .lists .home:active{
+     border-right: 3px solid rgba(0, 0, 255, 0.657);
+     background: #f4f4f4;
+     font-weight: bolder;
+}
+
+.sidebar .lists .list:hover{
+     border-right: 3px solid rgba(0, 0, 255, 0.657);
+     background: #f4f4f4;
+     font-weight: bolder;
+     
+}
+
+.sidebar .lists .list h3{
+     font-size: 1em;
+     font-weight: 300;
+
+}
+
+.sidebar .info{
+     border: none;
+     width: 100%;
+     flex-basis: 12%;
+     padding: 5px;
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.sidebar .info > h4:last-child{
+     color: blue;
+     font-style: italic;
+     font-size: 13px;
+
+     padding: 10px;
+
+}

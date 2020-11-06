@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import UserLogin from './UserLogin'
 import RegisterUser from './RegisterUser'
+import SideBar from './SideBar'
+import NavBar from './NavBar'
 
 class HomePage extends Component {
     constructor(props) {
@@ -8,7 +10,7 @@ class HomePage extends Component {
     
          this.state = {
                isClicked: true,
-               isAdmin: false
+               isAdmin: true
          }
     }
     
