@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheet/sidebarstyle.css'
+import * as FaIcons from 'react-icons/fa'
 
 function SideBar() {
 
@@ -11,12 +12,12 @@ function SideBar() {
      for (var i = 0; i < btns.length; i++){
 
           btns[i].addEventListener("click", function(){
-               var current = document.getElementsByClassName("home");
+               var current = document.getElementsByClassName("active");
 
                if(current.length > 0){
-                    current[0].className = current[0].className.replace(" home", "");
+                    current[0].className = current[0].className.replace("active", "");
                }
-               this.className += " home";
+               this.className += "active";
           });
      }
 
@@ -31,8 +32,9 @@ function SideBar() {
                
                <div className ="lists">
 
-                    <div className="home list">
-                         <h3>Home</h3>
+                    <div className="home list active">
+                         <FaIcons.FaHome/>
+                         <span><h3>Home</h3></span>
                     </div>
 
                     <div className="items list">
